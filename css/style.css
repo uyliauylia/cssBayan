@@ -75,9 +75,49 @@ input:checked + label:after {
 
 input:checked + label + .descr {
     height: auto;
-    overflow: visible;
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        max-width: 50rem;
+        padding: 1.5rem;
+
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    .meme {
+        max-width: 25rem;
+        margin: 2rem auto;
+    }
+    
 
 }
+
+@media (max-width: 568px) {
+
+    .container {
+        max-width: 32rem;
+        padding: 1rem;
+
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .meme {
+        max-width: 15rem;
+        margin: 1rem auto;
+    }
+    
+
+}
+
+
 
 
 
